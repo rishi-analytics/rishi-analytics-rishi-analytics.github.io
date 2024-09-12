@@ -1622,41 +1622,70 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
-		display: inline-block;
-		position: relative;
-	}
+.image {
+    display: inline-block;
+    position: relative;
+}
 
-		.image img {
-			display: block;
-			width: 100%;
-		}
+.image img {
+    display: block;
+    width: 100%;
+}
 
-		.image.fit {
-			display: block;
-			width: 100%;
-		}
+/* Fit images */
+.image.fit {
+    display: block;
+    width: 100%;
+}
 
-		.image.featured {
-			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
-		}
+/* Featured images */
+.image.featured {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
 
-		.image.left {
-			float: left;
-			margin: 0 2em 2em 0;
-		}
+/* Left-aligned images */
+.image.left {
+    float: left;
+    margin: 0 2em 2em 0;
+}
 
-		.image.centered {
-			display: block;
-			margin: 0 0 2em 0;
-		}
+/* Centered images */
+.image.centered {
+    display: block;
+    margin: 0 0 2em 0;
+}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
+.image.centered img {
+    margin: 0 auto;
+    width: auto;
+}
+
+/* --- New Styles for Specific Sections --- */
+
+/* Profile Image (Home Section) */
+.image-profile {
+    max-width: 150px;    /* Customize the size for the profile image */
+    height: auto;        /* Maintain aspect ratio */
+    border-radius: 50%;  /* Make the image circular */
+    object-fit: cover;   /* Ensure the image fits the space */
+}
+
+/* Work Section Images */
+.image-work {
+    max-width: 300px;    /* Customize the size for the work section images */
+    height: auto;        /* Maintain aspect ratio */
+    object-fit: cover;   /* Ensure the image covers the space */
+}
+
+/* Portfolio Section Images */
+.image-portfolio {
+    max-width: 250px;    /* Customize the size for portfolio images */
+    height: auto;        /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the entire image is visible */
+}
+
 
 /* Button */
 
