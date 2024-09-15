@@ -1965,6 +1965,18 @@ input, select, textarea {
 			margin: -4em 0 4em -4em;
 			width: auto;
 		}
+/* Custom Styles for Icons */
+.featured {
+    font-size: 3rem; /* Adjust this to match the size */
+    color: #e44c65; /* Light red color, similar to PowerBI/Tableau */
+}
+
+/* Optional: specific styling for Python and SQL icons */
+.fa-python,
+.fa-database {
+    font-size: 3rem; /* Ensuring they are the same size */
+    color: #e44c65; /* Apply the same color */
+}
 
 /* Icons */
 
@@ -2012,6 +2024,20 @@ input, select, textarea {
 			.icon.featured:before {
 				font-size: 6em;
 			}
+
+/* Custom Styles for Icons */
+.featured {
+    font-size: 3rem; /* Adjust this to match the size */
+    color: #e44c65; /* Light red color, similar to PowerBI/Tableau */
+}
+
+/* Optional: specific styling for Python and SQL icons */
+.fa-python,
+.fa-database {
+    font-size: 3rem; /* Ensuring they are the same size */
+    color: #e44c65; /* Apply the same color */
+}
+
 
 /* Wrappers */
 
