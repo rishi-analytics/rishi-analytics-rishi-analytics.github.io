@@ -2498,3 +2498,17 @@ input, select, textarea {
 					}
 
 	}
+/* Add this CSS rule to ensure left alignment for skills and course links */
+table th, table td {
+  text-align: left;
+}
+
+/* Add this CSS rule to make the headers bold */
+h2, table th {
+  font-weight: bold;
+}
+
+/* Adjust the width of the image container */
+.skills-box .col-4, .skills-box .col-5-large, .skills-box .col-12-medium {
+  width: 20%; /* Adjust this value as needed */
+}
