@@ -2498,17 +2498,32 @@ input, select, textarea {
 					}
 
 	}
-/* Add this CSS rule to ensure left alignment for skills and course links */
+
+
+
+
+
+.wrapper.style1 {
+    border: none; /* Remove any borders around the article */
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+}
+
+.skills-box {
+    border: none; /* Remove any container boundaries */
+}
+
+table {
+    width: 100%; /* Ensure the table spans the container width */
+    border-collapse: collapse; /* Remove spacing between table cells */
+}
+
 table th, table td {
-  text-align: left;
+    padding: 10px; /* Adjust padding if needed */
+    border: none; /* Remove borders from the table */
 }
 
-/* Add this CSS rule to make the headers bold */
-h2, table th {
-  font-weight: bold;
+header p {
+    margin-bottom: 10px; /* Remove extra spacing after paragraph */
 }
 
-/* Adjust the width of the image container */
-.skills-box .col-4, .skills-box .col-5-large, .skills-box .col-12-medium {
-  width: 20%; /* Adjust this value as needed */
-}
