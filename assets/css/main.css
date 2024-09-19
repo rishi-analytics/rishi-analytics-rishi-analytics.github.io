@@ -2602,3 +2602,6 @@ ul.social li a.fa-snapchat-ghost:hover {
 .footer-section a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
+.comic-sans {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Apply Comic Sans font */
+}
