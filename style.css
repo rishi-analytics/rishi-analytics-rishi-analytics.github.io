@@ -2527,3 +2527,18 @@ header p {
     margin-bottom: 10px; /* Remove extra spacing after paragraph */
 }
 
+.social-icon:hover {
+  color: #ff0000;  /* Default hover color (change to red) */
+}
+
+.social-icon.fa-instagram:hover {
+  color: pink;  /* Change color to pink on hover */
+}
+
+.social-icon.fa-snapchat-ghost:hover {
+  color: yellow;  /* Change color to yellow on hover */
+}
+
+.social-icon.fa-google:hover {
+  color: red;  /* Change color to red for Gmail */
+}
