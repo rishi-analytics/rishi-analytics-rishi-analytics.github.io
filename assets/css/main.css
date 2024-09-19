@@ -2516,11 +2516,6 @@ ul.social li a.fa-snapchat-ghost:hover {
 .social-section {
     background-color: black; /* Set the background color to black */
     padding: 20px 15px; /* 20px top/bottom, 15px left/right */
-}
-		
-.social-section {
-    background-color: black; /* Set the background color to black */
-    padding: 20px 15px; /* 20px top/bottom, 15px left/right */
     text-align: center; /* Center the text and icons */
 }
 
@@ -2529,4 +2524,12 @@ ul.social li a.fa-snapchat-ghost:hover {
     margin: 0; /* Reset any default margin */
     padding: 0; /* Reset any default padding */
     list-style: none; /* Remove default list style */
+}
+
+.social li {
+    display: inline-block; /* Ensure list items are displayed inline */
+}
+
+.social li a {
+    color: #ffffff; /* Ensure icon and text color is white */
 }
