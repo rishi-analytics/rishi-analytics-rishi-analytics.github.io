@@ -2511,3 +2511,9 @@ ul.social li a.fa-snapchat-ghost:hover {
 					#copyright li:first-child {
 						margin-top: 0;
 					}
+
+
+.social-section {
+    background-color: black; /* Set the background color to black */
+    padding: 20px 15px; /* 20px top/bottom, 15px left/right */
+}
