@@ -2586,24 +2586,19 @@ ul.social li a.fa-snapchat-ghost:hover {
 						margin-top: 0;
 					}
 
-
-.social-section {
-    background-color: black; /* Set the background color to black */
-    padding: 20px 15px; /* 20px top/bottom, 15px left/right */
-    text-align: center; /* Center the text and icons */
+		
+.footer-section {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white for contrast */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding for spacing */
 }
 
-.social {
-    display: inline-block; /* Ensure the list behaves like an inline element */
-    margin: 0; /* Reset any default margin */
-    padding: 0; /* Reset any default padding */
-    list-style: none; /* Remove default list style */
+.footer-section a {
+    color: white; /* Change link color to white */
+    text-decoration: none; /* Remove underline from links */
 }
 
-.social li {
-    display: inline-block; /* Ensure list items are displayed inline */
-}
-
-.social li a {
-    color: #ffffff; /* Ensure icon and text color is white */
+.footer-section a:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
