@@ -2605,3 +2605,12 @@ ul.social li a.fa-snapchat-ghost:hover {
 .comic-sans {
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Apply Comic Sans font */
 }
+
+
+
+.footer-section {
+    background-color: black; /* Set background color to black */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center; /* Center align the text */
+    color: white; /* Change text color to white for contrast */
+}
