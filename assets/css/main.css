@@ -2567,6 +2567,22 @@ ul.social li a.fa-snapchat-ghost:hover {
 				margin: 0;
 			}
 
+		.footer-section {
+    background-color: black; /* Set background color to black */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center align the text */
+    color: white; /* Change text color to white for contrast */
+    width: 100%; /* Ensure footer takes the full width */
+    position: relative; /* Ensure it's positioned correctly */
+    bottom: 0; /* Keep it at the bottom */
+}
+
+#copyright {
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    list-style: none; /* Remove default list style */
+}
+
 		/* Copyright */
 
 			#copyright {
@@ -2585,4 +2601,3 @@ ul.social li a.fa-snapchat-ghost:hover {
 					#copyright li:first-child {
 						margin-top: 0;
 					}
-
