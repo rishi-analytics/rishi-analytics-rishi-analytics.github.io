@@ -2442,4 +2442,14 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
-	}
+	}.icon.brands.fa-envelope:hover {
+    color: red;
+}
+
+.icon.brands.fa-instagram:hover {
+    color: pink;
+}
+
+.icon.brands.fa-snapchat:hover {
+    color: yellow;
+}
