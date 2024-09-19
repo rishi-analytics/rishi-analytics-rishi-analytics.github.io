@@ -2526,4 +2526,7 @@ ul.social li a.fa-snapchat-ghost:hover {
 
 .social {
     display: inline-block; /* Ensure the list behaves like an inline element */
+    margin: 0; /* Reset any default margin */
+    padding: 0; /* Reset any default padding */
+    list-style: none; /* Remove default list style */
 }
