@@ -1921,6 +1921,12 @@ ul.social li a {
     position: relative;
 }
 
+.social {
+    background-color: #000000; /* Set to black */
+    padding: 10px; /* Add some padding if needed */
+}
+
+
 /* Existing hover effect for all icons */
 ul.social li a:hover {
     top: -5px;
