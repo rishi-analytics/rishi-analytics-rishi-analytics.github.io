@@ -2610,3 +2610,31 @@ ul.social li a.fa-snapchat-ghost:hover {
     text-align: center;
     margin-top: 0; /* Removes top margin */
 }
+
+/* Social Section */
+.social-section {
+    background-color: black;
+    padding: 20px 15px;
+    text-align: center;
+    margin-bottom: 0; /* Removes any bottom margin */
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: black;
+    padding: 20px 15px;
+    text-align: center;
+    margin-top: 0; /* Removes any top margin */
+}
+
+/* Remove spacing from hr elements */
+.social-section hr, .footer-section hr {
+    margin: 0; /* Remove margin around the hr */
+    padding: 0; /* Remove padding if any */
+}
+
+/* Ensure body has no extra padding/margin */
+body {
+    margin: 0;
+    padding: 0;
+}
