@@ -2592,10 +2592,16 @@ ul.social li a.fa-snapchat-ghost:hover {
 					#copyright li:first-child {
 						margin-top: 0;
 					}
+
+		
 .footer-section {
     background-color: black;
     text-align: center;
     padding: 20px 0;
+    position: fixed; /* Ensures the footer stays at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ensures the footer spans the full width of the page */
 }
 
 .footer-section ul {
