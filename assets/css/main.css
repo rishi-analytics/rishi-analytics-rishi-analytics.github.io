@@ -2591,18 +2591,24 @@ ul.social li a.fa-snapchat-ghost:hover {
 
 					#copyright li:first-child {
 						margin-top: 0;
-					}
+	
+				}
 
-.footer-wrapper {
-    width: 100%;
-    position: relative;
-    bottom: 0;
+		
+#footer {
+    background-color: #000; /* Black background */
+    color: #ff0000; /* Bright red text */
+    text-align: center; /* Center align */
+    padding: 20px 0; /* Add some padding */
+    font-size: 12px; /* Adjust font size */
 }
 
-.footer-section {
-    background-color: black !important;
-    padding: 20px !important;
-    text-align: center !important;
-    color: white !important;
-    width: 100%;
+#footer a {
+    color: #ff0000; /* Red for links */
+    text-decoration: none;
 }
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
