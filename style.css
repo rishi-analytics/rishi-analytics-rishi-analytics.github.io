@@ -2542,3 +2542,47 @@ header p {
 .social-icon.fa-google:hover {
   color: red;  /* Change color to red for Gmail */
 }
+
+
+
+
+/* Reset margins for sections to ensure no gaps */
+.social-section, .footer-section {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure hr elements don’t introduce any gaps */
+.social-section hr, .footer-section hr {
+    margin: 0;
+}
+
+/* Keep container styling */
+.container {
+    margin: 0 auto;
+    max-width: calc(100% - 50px);
+    width: 1200px;
+}
+
+/* Apply container responsiveness */
+@media screen and (max-width: 1680px) {
+    .container {
+        width: 1200px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 960px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 736px) {
+    .container {
+        width: 100%;
+        max-width: calc(100% - 30px);
+    }
+}
