@@ -2614,3 +2614,14 @@ ul.social li a.fa-snapchat-ghost:hover {
     color: white;
     font-family: Arial, sans-serif;
 }
+---
+		.footer-section {
+    background-color: black !important;
+    text-align: center !important;
+    padding: 20px 0 !important;
+    position: fixed !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+}
+
