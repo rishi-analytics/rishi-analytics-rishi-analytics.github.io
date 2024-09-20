@@ -2542,3 +2542,20 @@ header p {
 .social-icon.fa-google:hover {
   color: red;  /* Change color to red for Gmail */
 }
+
+#footer {
+    background-color: #000; /* Black background */
+    color: #ff0000; /* Bright red text */
+    text-align: center; /* Center align */
+    padding: 20px 0; /* Add some padding */
+    font-size: 12px; /* Adjust font size */
+}
+
+#footer a {
+    color: #ff0000; /* Red for links */
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
